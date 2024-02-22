@@ -446,7 +446,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/f37b00a5-62bb-47d6-b18e-0a47b6349fc3"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -485,7 +485,7 @@
           (reference "U1") (unit 1)
         )
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/f37b00a5-62bb-47d6-b18e-0a47b6349fc3"
-          (reference "U4") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -494,7 +494,7 @@
   (symbol (lib_id "AMC130M02DFMR:AMC130M02DFMR") (at 109.22 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bd981102-c514-47b0-87b3-7f9791c5f720)
-    (property "Reference" "U1" (at 140.97 31.75 0)
+    (property "Reference" "U4" (at 140.97 31.75 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "AMC130M02DFMR" (at 140.97 34.29 0)
@@ -529,7 +529,7 @@
     (instances
       (project "power_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/f37b00a5-62bb-47d6-b18e-0a47b6349fc3"
-          (reference "U1") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -557,7 +557,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/f37b00a5-62bb-47d6-b18e-0a47b6349fc3"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -595,7 +595,7 @@
           (reference "C1") (unit 1)
         )
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/f37b00a5-62bb-47d6-b18e-0a47b6349fc3"
-          (reference "C10") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
