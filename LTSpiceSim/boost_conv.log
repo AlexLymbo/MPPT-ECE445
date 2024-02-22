@@ -1,21 +1,21 @@
-Circuit: * C:\Users\alexl\OneDrive\Desktop\ECE445\boost_conv.asc
+Circuit: * C:\Users\alexl\OneDrive\Desktop\ECE445\MPPT-ECE445\LTSpiceSim\boost_conv.asc
 
 Direct Newton iteration for .op point succeeded.
 
-Date: Thu Feb 15 14:13:12 2024
-Total elapsed time: 5.869 seconds.
+Date: Wed Feb 21 20:01:30 2024
+Total elapsed time: 9.632 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 1727974
-traniter = 1727968
-tranpoints = 458432
-accept = 361029
-rejected = 97403
-matrix size = 11
+totiter = 1457940
+traniter = 1457935
+tranpoints = 400563
+accept = 325751
+rejected = 74812
+matrix size = 13
 fillins = 1
 solver = Normal
-Matrix Compiler1: 494 bytes object code size  0.2/0.2/[0.1]
-Matrix Compiler2: off  [0.1]/0.2/0.2
+Matrix Compiler1: 540 bytes object code size  0.1/0.1/[0.0]
+Matrix Compiler2: 925 bytes object code size  0.1/0.1/[0.1]
 
