@@ -1,0 +1,19 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 178d7955-9487-4a80-9b0e-0e2acfcde902)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "CAN_TX" (shape output) (at 112.014 97.536 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ba3e4f89-ba27-4331-a69e-26eb8e5736c5)
+  )
+  (hierarchical_label "CAN_RX" (shape input) (at 113.284 113.03 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ec1d9f87-08e0-4a9a-a03f-01d16f6ad579)
+  )
+)
