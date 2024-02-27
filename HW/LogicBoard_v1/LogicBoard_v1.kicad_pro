@@ -497,6 +497,10 @@
     [
       "e6839db7-560d-4920-a998-411716d8487f",
       "Power"
+    ],
+    [
+      "8aa6a7bb-8a1d-452d-93a1-bb589680df70",
+      "Fans"
     ]
   ],
   "text_variables": {}

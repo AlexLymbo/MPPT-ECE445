@@ -803,6 +803,10 @@
     (stroke (width 0) (type default))
     (uuid 8352fb59-68b6-46ab-b08c-0e4c7d53bf97)
   )
+  (wire (pts (xy 139.954 72.136) (xy 143.002 72.136))
+    (stroke (width 0) (type default))
+    (uuid 83ee187a-4ff9-452d-a3a5-4836af39cd3f)
+  )
   (wire (pts (xy 42.672 46.736) (xy 42.672 69.596))
     (stroke (width 0) (type default))
     (uuid 88e53d4a-2e7c-41bc-85d3-ad7730e25f41)
@@ -834,6 +838,10 @@
   (wire (pts (xy 87.122 42.926) (xy 87.122 46.736))
     (stroke (width 0) (type default))
     (uuid 93b4a3de-7164-4ac3-853f-01e93eb65fdc)
+  )
+  (wire (pts (xy 139.954 69.596) (xy 143.002 69.596))
+    (stroke (width 0) (type default))
+    (uuid 93bf69df-db5c-4167-9598-e9486d5accb4)
   )
   (wire (pts (xy 140.462 59.436) (xy 143.002 59.436))
     (stroke (width 0) (type default))
@@ -1150,9 +1158,17 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 6f08bf15-2b5e-4c8b-85aa-322f5226bc2a)
   )
+  (hierarchical_label "Fan_Tach" (shape input) (at 139.954 69.596 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 81c1c537-9547-43a7-8391-35f05a889ad5)
+  )
   (hierarchical_label "P0_21" (shape bidirectional) (at 228.092 91.186 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 85297bd9-b9dd-4167-94e5-6de82236ac3f)
+  )
+  (hierarchical_label "Fan_PWM" (shape output) (at 139.954 72.136 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 8f932bcf-d1a9-4987-8bd1-c202390f8e63)
   )
   (hierarchical_label "CS_2" (shape bidirectional) (at 140.462 61.976 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
@@ -1222,7 +1238,7 @@
   (symbol (lib_id "device:R") (at 87.122 39.116 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0530df69-d2a4-4224-b6bf-35d9b567e803)
-    (property "Reference" "R?" (at 90.932 37.846 0)
+    (property "Reference" "R9" (at 90.932 37.846 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 90.932 40.386 0)
@@ -1245,7 +1261,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/58fd98c3-d0d6-4fc5-a934-452ba6eabcb0"
-          (reference "R?") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
       (project "BRAIN_v4.0"
@@ -1265,7 +1281,7 @@
   (symbol (lib_id "device:R") (at 87.122 73.406 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 20acb027-99b4-4b64-8d8f-99b1b740cc6f)
-    (property "Reference" "R?" (at 90.932 74.676 0)
+    (property "Reference" "R10" (at 90.932 74.676 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 90.932 72.136 0)
@@ -1288,7 +1304,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/58fd98c3-d0d6-4fc5-a934-452ba6eabcb0"
-          (reference "R?") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
       (project "BRAIN_v4.0"
@@ -1308,7 +1324,7 @@
   (symbol (lib_id "device:C") (at 76.962 177.546 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 29fae747-28a9-4676-91ac-ef022f043a68)
-    (property "Reference" "C?" (at 70.612 176.276 0)
+    (property "Reference" "C5" (at 70.612 176.276 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 69.342 178.816 0)
@@ -1331,7 +1347,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/58fd98c3-d0d6-4fc5-a934-452ba6eabcb0"
-          (reference "C?") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
       (project "BRAIN_v4.0"
@@ -1351,7 +1367,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 87.122 59.436 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 464a4f27-c386-44cb-af21-fbd4fa1a4fba)
-    (property "Reference" "SW?" (at 90.932 58.166 90)
+    (property "Reference" "SW2" (at 90.932 58.166 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~RESET" (at 90.932 60.706 90)
@@ -1371,7 +1387,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/58fd98c3-d0d6-4fc5-a934-452ba6eabcb0"
-          (reference "SW?") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
       (project "BRAIN_v4.0"
@@ -1391,7 +1407,7 @@
   (symbol (lib_id "device:R") (at 65.532 107.696 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4bce0f64-c2b8-421c-bf03-94c25c4b6529)
-    (property "Reference" "R?" (at 66.802 106.426 0)
+    (property "Reference" "R8" (at 66.802 106.426 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0 " (at 66.802 108.966 0)
@@ -1417,7 +1433,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/58fd98c3-d0d6-4fc5-a934-452ba6eabcb0"
-          (reference "R?") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
       (project "BRAIN_v4.0"
@@ -1437,7 +1453,7 @@
   (symbol (lib_id "device:R") (at 65.532 75.946 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e301cf9-eb16-4528-a393-442123b427f0)
-    (property "Reference" "R?" (at 69.342 77.216 0)
+    (property "Reference" "R7" (at 69.342 77.216 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 69.342 74.676 0)
@@ -1460,7 +1476,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/58fd98c3-d0d6-4fc5-a934-452ba6eabcb0"
-          (reference "R?") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
       (project "BRAIN_v4.0"
@@ -1480,7 +1496,7 @@
   (symbol (lib_id "device:C") (at 42.672 73.406 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 620d4c88-5674-4eb4-8e03-2703bbb0df9b)
-    (property "Reference" "C?" (at 46.482 72.136 0)
+    (property "Reference" "C2" (at 46.482 72.136 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 46.482 74.676 0)
@@ -1503,7 +1519,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/58fd98c3-d0d6-4fc5-a934-452ba6eabcb0"
-          (reference "C?") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
       (project "BRAIN_v4.0"
@@ -1523,7 +1539,7 @@
   (symbol (lib_id "device:R") (at 65.532 39.116 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 643849ff-8976-46f5-a8c5-5ce1a6e6a076)
-    (property "Reference" "R?" (at 69.342 40.386 0)
+    (property "Reference" "R6" (at 69.342 40.386 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 69.342 37.846 0)
@@ -1546,7 +1562,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/58fd98c3-d0d6-4fc5-a934-452ba6eabcb0"
-          (reference "R?") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
       (project "BRAIN_v4.0"
@@ -1617,7 +1633,7 @@
   (symbol (lib_id "device:C") (at 74.422 154.686 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 68666c99-c6ff-4bbc-8e6d-5ed4bfaa443d)
-    (property "Reference" "C?" (at 68.072 153.416 0)
+    (property "Reference" "C4" (at 68.072 153.416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 66.802 155.956 0)
@@ -1640,7 +1656,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/58fd98c3-d0d6-4fc5-a934-452ba6eabcb0"
-          (reference "C?") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
       (project "BRAIN_v4.0"
@@ -1660,7 +1676,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 65.532 59.436 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6bcfc4ec-5d56-4a13-9980-1606bfadbae5)
-    (property "Reference" "SW?" (at 69.342 58.166 90)
+    (property "Reference" "SW1" (at 69.342 58.166 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ISP" (at 69.342 60.706 90)
@@ -1680,7 +1696,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/58fd98c3-d0d6-4fc5-a934-452ba6eabcb0"
-          (reference "SW?") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
       (project "BRAIN_v4.0"
@@ -1780,7 +1796,7 @@
   (symbol (lib_id "device:C") (at 252.222 112.776 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f7c836c-1bb7-454b-9aab-c97d380d73e6)
-    (property "Reference" "C?" (at 250.952 108.966 90)
+    (property "Reference" "C6" (at 250.952 108.966 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "18pF" (at 250.952 106.426 90)
@@ -1803,7 +1819,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/58fd98c3-d0d6-4fc5-a934-452ba6eabcb0"
-          (reference "C?") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
       (project "BRAIN_v4.0"
@@ -1859,7 +1875,7 @@
   (symbol (lib_id "device:R") (at 47.752 46.736 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dd0b9bee-a0cb-4f12-9486-7984ec0eaa5b)
-    (property "Reference" "R?" (at 47.752 44.196 90)
+    (property "Reference" "R5" (at 47.752 44.196 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 47.752 41.656 90)
@@ -1882,7 +1898,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/58fd98c3-d0d6-4fc5-a934-452ba6eabcb0"
-          (reference "R?") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
       (project "BRAIN_v4.0"
@@ -1902,7 +1918,7 @@
   (symbol (lib_id "device:C") (at 61.722 154.686 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea7bc986-f28c-4167-9833-ad7275f01718)
-    (property "Reference" "C?" (at 55.372 153.416 0)
+    (property "Reference" "C3" (at 55.372 153.416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 54.102 155.956 0)
@@ -1925,7 +1941,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/58fd98c3-d0d6-4fc5-a934-452ba6eabcb0"
-          (reference "C?") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
       (project "BRAIN_v4.0"
@@ -1945,7 +1961,7 @@
   (symbol (lib_id "device:C") (at 252.222 122.936 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f8ce5a47-9b72-4cd5-99e1-7efdaa415e31)
-    (property "Reference" "C?" (at 250.952 129.286 90)
+    (property "Reference" "C7" (at 250.952 129.286 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "18pF" (at 250.952 126.746 90)
@@ -1968,7 +1984,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/58fd98c3-d0d6-4fc5-a934-452ba6eabcb0"
-          (reference "C?") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
       (project "BRAIN_v4.0"
