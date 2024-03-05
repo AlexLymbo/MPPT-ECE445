@@ -3776,6 +3776,17 @@
 		)
 		(uuid "27c1b252-81b5-43ea-838c-2d2b4b6423fc")
 	)
+	(text "+5V drop max across Rsense"
+		(exclude_from_sim no)
+		(at 236.982 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d3888d1-43b3-40da-b83c-b4f8e1a96bb5")
+	)
 	(text "LV Side"
 		(exclude_from_sim no)
 		(at 128.778 17.78 0)
@@ -4725,146 +4736,6 @@
 			(project "power_v1"
 				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/f37b00a5-62bb-47d6-b18e-0a47b6349fc3"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "device:R_US")
-		(at 236.22 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18a31bc4-3a2e-4d35-98a4-540a75440e94")
-		(property "Reference" "R5"
-			(at 238.76 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_US"
-			(at 238.76 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.236 44.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 236.22 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dcaed618-af9f-4383-ab38-d6db0ba832ef")
-		)
-		(pin "1"
-			(uuid "bd2fb2b2-ff20-4e78-afa4-6f059fb533f4")
-		)
-		(instances
-			(project "power_v1"
-				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/f37b00a5-62bb-47d6-b18e-0a47b6349fc3"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "device:R_US")
-		(at 259.08 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b56159a-9710-4db8-a474-96d7966232b9")
-		(property "Reference" "R9"
-			(at 261.62 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_US"
-			(at 261.62 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.096 54.864 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 259.08 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "78443608-a0bc-40a6-be3a-c897417a351e")
-		)
-		(pin "1"
-			(uuid "722b09ef-76a3-42a4-b720-4944f3112a85")
-		)
-		(instances
-			(project "power_v1"
-				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/f37b00a5-62bb-47d6-b18e-0a47b6349fc3"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6186,7 +6057,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6c2c15c2-5049-4698-a268-040503d3b362")
 		(property "Reference" "R6"
 			(at 238.76 53.3399 0)
@@ -6197,7 +6067,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "53k"
 			(at 238.76 55.8799 0)
 			(effects
 				(font
@@ -6206,7 +6076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 237.236 54.864 90)
 			(effects
 				(font
@@ -6215,7 +6085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73H.pdf"
 			(at 236.22 54.61 0)
 			(effects
 				(font
@@ -6231,6 +6101,23 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "RN73H1JTTD5302D100"
+			(at 236.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "Rsense"
+			(at 231.648 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6463,76 +6350,6 @@
 		)
 	)
 	(symbol
-		(lib_id "device:R_US")
-		(at 259.08 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ef268bb-53a3-4633-9c1c-6313bbaa9d5b")
-		(property "Reference" "R8"
-			(at 261.62 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_US"
-			(at 261.62 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.096 44.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 259.08 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "77995412-a433-4e6a-9786-04524da88bd3")
-		)
-		(pin "1"
-			(uuid "b787c77a-36c3-4a15-8c4f-21d9152207c1")
-		)
-		(instances
-			(project "power_v1"
-				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/f37b00a5-62bb-47d6-b18e-0a47b6349fc3"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 167.64 43.18 180)
 		(unit 1)
@@ -6594,6 +6411,76 @@
 			(project "power_v1"
 				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/f37b00a5-62bb-47d6-b18e-0a47b6349fc3"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "device:R_US")
+		(at 259.08 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fa77b7e-71c6-491c-bebf-0cc6c0fee9d1")
+		(property "Reference" "R8"
+			(at 261.62 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "500k"
+			(at 261.62 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 260.096 44.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 259.08 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f74543bd-e23b-47ca-8327-d883b1572131")
+		)
+		(pin "1"
+			(uuid "c37388d6-2ce2-4615-95b6-a4031e09cfe4")
+		)
+		(instances
+			(project "power_v1"
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/f37b00a5-62bb-47d6-b18e-0a47b6349fc3"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7334,76 +7221,6 @@
 		)
 	)
 	(symbol
-		(lib_id "device:R_US")
-		(at 259.08 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91bb55b5-f8a9-42c3-965f-50cab53b0852")
-		(property "Reference" "R7"
-			(at 261.62 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_US"
-			(at 261.62 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.096 35.814 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 259.08 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "878f818e-b820-46b1-9c2f-85822531fabc")
-		)
-		(pin "1"
-			(uuid "e6e71bd3-9d4b-4400-b868-7ad2bf900d0a")
-		)
-		(instances
-			(project "power_v1"
-				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/f37b00a5-62bb-47d6-b18e-0a47b6349fc3"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "AMC1350:PAMC1350DWVR")
 		(at 167.64 85.09 0)
 		(mirror y)
@@ -7560,6 +7377,76 @@
 			(project "power_v1"
 				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/f37b00a5-62bb-47d6-b18e-0a47b6349fc3"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "device:R_US")
+		(at 236.22 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9862f136-0acc-4db2-aa1e-d3fbdd78ccd1")
+		(property "Reference" "R5"
+			(at 238.76 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "500k"
+			(at 238.76 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 237.236 44.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 236.22 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "89d8102c-d0ba-4eb9-b899-f882a63367a9")
+		)
+		(pin "1"
+			(uuid "50c7ba39-851c-499d-86d3-9ad686b186ff")
+		)
+		(instances
+			(project "power_v1"
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/f37b00a5-62bb-47d6-b18e-0a47b6349fc3"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8443,6 +8330,92 @@
 		)
 	)
 	(symbol
+		(lib_id "device:R_US")
+		(at 259.08 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2551af1-1cc6-46cd-b83c-efc217e020bf")
+		(property "Reference" "R9"
+			(at 261.62 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "41.7k"
+			(at 261.62 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 260.096 54.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RN73R1JTTD4172F10/10017113"
+			(at 259.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 259.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RN73R1JTTD4172F10"
+			(at 259.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "Rsense"
+			(at 254.508 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6bdc0727-3916-48da-8e4e-6b159ca04a72")
+		)
+		(pin "1"
+			(uuid "85155b33-7c21-4166-ba85-65fa50cafa14")
+		)
+		(instances
+			(project "power_v1"
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/f37b00a5-62bb-47d6-b18e-0a47b6349fc3"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 111.76 31.75 0)
 		(unit 1)
@@ -8526,7 +8499,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "500k"
 			(at 238.76 36.8299 0)
 			(effects
 				(font
@@ -8535,7 +8508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 237.236 35.814 90)
 			(effects
 				(font
@@ -8961,6 +8934,76 @@
 			(project "power_v1"
 				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/f37b00a5-62bb-47d6-b18e-0a47b6349fc3"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "device:R_US")
+		(at 259.08 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ded38152-2dc7-4df9-ab7a-72b459bd3ead")
+		(property "Reference" "R7"
+			(at 261.62 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "500k"
+			(at 261.62 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 260.096 35.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 259.08 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8893316-15dc-4764-b248-249243e4406c")
+		)
+		(pin "1"
+			(uuid "136b114a-44ae-4ded-a70e-8898798a1f01")
+		)
+		(instances
+			(project "power_v1"
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/f37b00a5-62bb-47d6-b18e-0a47b6349fc3"
+					(reference "R7")
 					(unit 1)
 				)
 			)
