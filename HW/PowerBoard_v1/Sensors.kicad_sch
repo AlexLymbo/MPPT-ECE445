@@ -2773,16 +2773,6 @@
 		)
 		(uuid "6309d8e3-2010-42f1-bf72-f032ab297f00")
 	)
-	(wire
-		(pts
-			(xy 245.11 129.54) (xy 255.27 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6511bb6a-5303-4dd7-bd1e-b8eb826fc3c6")
-	)
 	(polyline
 		(pts
 			(xy 147.32 135.89) (xy 147.32 132.08)
@@ -2972,6 +2962,16 @@
 			(type default)
 		)
 		(uuid "867f94b0-a6f2-4d20-8533-d2b29859375f")
+	)
+	(wire
+		(pts
+			(xy 245.11 129.54) (xy 255.27 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8711e3b4-ec70-4a77-bb12-5eabb201fe73")
 	)
 	(wire
 		(pts
@@ -3969,13 +3969,13 @@
 		(uuid "b842d8d7-1432-4e8c-80b7-1506540119d8")
 	)
 	(label "Sol Out"
-		(at 252.73 129.54 180)
+		(at 245.11 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "c17fa4d7-0045-4807-aeff-8cb64a5fee49")
 	)
@@ -6888,72 +6888,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 245.11 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82269eb7-34df-4db0-8708-b2e4c2bc820b")
-		(property "Reference" "TP10"
-			(at 239.776 141.478 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADC V Sol"
-			(at 240.284 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
-			(at 245.11 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 245.11 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5564d0cd-652b-4ab1-8246-aa89d344b4a9")
-		)
-		(instances
-			(project "power_v1"
-				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/f37b00a5-62bb-47d6-b18e-0a47b6349fc3"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "device:C")
 		(at 189.23 67.31 0)
 		(mirror y)
@@ -7105,72 +7039,6 @@
 			(project "power_v1"
 				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/f37b00a5-62bb-47d6-b18e-0a47b6349fc3"
 					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 245.11 129.54 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a8be51f-45e1-436e-ba6b-11cebc134827")
-		(property "Reference" "TP12"
-			(at 239.776 131.318 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADC I Sol"
-			(at 240.284 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
-			(at 245.11 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 245.11 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd54a0c1-50f3-45ce-9a1a-f9f14f0ba240")
-		)
-		(instances
-			(project "power_v1"
-				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/f37b00a5-62bb-47d6-b18e-0a47b6349fc3"
-					(reference "TP12")
 					(unit 1)
 				)
 			)
