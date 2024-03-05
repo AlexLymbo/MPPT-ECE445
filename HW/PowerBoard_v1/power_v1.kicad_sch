@@ -12,141 +12,6 @@
 		(comment 1 "Designed By: Alex Lymberopoulos & Alex Chmiel & Akhil Pothineni")
 	)
 	(lib_symbols
-		(symbol "C_1"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_1"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_1_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
 			(pin_names
@@ -1265,7 +1130,7 @@
 			(symbol "SolderJumper_2_Open_0_1"
 				(arc
 					(start -0.254 1.016)
-					(mid -1.2656 0)
+					(mid -1.2655 0)
 					(end -0.254 -1.016)
 					(stroke
 						(width 0)
@@ -1277,7 +1142,7 @@
 				)
 				(arc
 					(start -0.254 1.016)
-					(mid -1.2656 0)
+					(mid -1.2655 0)
 					(end -0.254 -1.016)
 					(stroke
 						(width 0)
@@ -1313,7 +1178,7 @@
 				)
 				(arc
 					(start 0.254 -1.016)
-					(mid 1.2656 0)
+					(mid 1.2655 0)
 					(end 0.254 1.016)
 					(stroke
 						(width 0)
@@ -1325,7 +1190,7 @@
 				)
 				(arc
 					(start 0.254 -1.016)
-					(mid 1.2656 0)
+					(mid 1.2655 0)
 					(end 0.254 1.016)
 					(stroke
 						(width 0)
@@ -3390,6 +3255,12 @@
 		(uuid "471ee8a5-31b1-4838-b786-f415c6cb36ba")
 	)
 	(junction
+		(at 31.75 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5434220d-ef3b-496f-8daf-819ed618fee9")
+	)
+	(junction
 		(at 63.5 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3519,7 +3390,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 46.99) (xy 31.75 49.53)
+			(xy 31.75 46.99) (xy 31.75 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3539,16 +3410,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 36.83) (xy 31.75 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c2b67f8-1ec2-4edf-9d97-a04b95218f69")
-	)
-	(wire
-		(pts
 			(xy 113.03 48.26) (xy 123.19 48.26)
 		)
 		(stroke
@@ -3556,6 +3417,16 @@
 			(type default)
 		)
 		(uuid "1d503026-81c0-409e-9a40-54dea3e01b58")
+	)
+	(wire
+		(pts
+			(xy 33.02 48.26) (xy 31.75 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dbc75dd-715d-4500-96a2-a1cc233f4350")
 	)
 	(wire
 		(pts
@@ -3576,6 +3447,16 @@
 			(type default)
 		)
 		(uuid "25abf6d7-c27f-477d-88b4-0612e92b579c")
+	)
+	(wire
+		(pts
+			(xy 29.21 161.29) (xy 41.91 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25d4b509-d7b6-437c-a204-5f80cd3768ba")
 	)
 	(wire
 		(pts
@@ -3636,16 +3517,6 @@
 			(type default)
 		)
 		(uuid "2c641cf3-1c1b-4414-ab5a-a6631ff0345a")
-	)
-	(wire
-		(pts
-			(xy 31.75 39.37) (xy 26.67 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cd748fc-409d-4708-b12f-1598678b360e")
 	)
 	(wire
 		(pts
@@ -3749,6 +3620,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 39.37) (xy 34.29 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c47ea9-9f66-45a1-86eb-0d09a7751b96")
+	)
+	(wire
+		(pts
 			(xy 212.09 50.8) (xy 212.09 48.26)
 		)
 		(stroke
@@ -3756,6 +3637,16 @@
 			(type default)
 		)
 		(uuid "40d17531-5fb7-4841-9904-90b0a4ecd151")
+	)
+	(wire
+		(pts
+			(xy 31.75 48.26) (xy 31.75 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c9a1d3-e204-404d-be4c-cc62309fef3f")
 	)
 	(wire
 		(pts
@@ -3819,6 +3710,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 44.45) (xy 26.67 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "565c33b6-025f-4990-8eaf-5c2cd3563287")
+	)
+	(wire
+		(pts
 			(xy 212.09 48.26) (xy 198.12 48.26)
 		)
 		(stroke
@@ -3866,16 +3767,6 @@
 			(type default)
 		)
 		(uuid "5bd975bc-a3c7-456c-89a4-6dec5391d9ee")
-	)
-	(wire
-		(pts
-			(xy 41.91 168.91) (xy 29.21 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c055786-c9e0-49cc-95e8-eee7edcaae14")
 	)
 	(wire
 		(pts
@@ -3959,6 +3850,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 163.83) (xy 41.91 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6979a68a-fa28-40bf-9f0f-a843139eb930")
+	)
+	(wire
+		(pts
 			(xy 99.06 99.06) (xy 116.84 99.06)
 		)
 		(stroke
@@ -3986,6 +3887,26 @@
 			(type default)
 		)
 		(uuid "6de64ba1-9dd0-40e9-8141-2e29bc455e5e")
+	)
+	(wire
+		(pts
+			(xy 39.37 38.1) (xy 39.37 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff64cbd-570c-4ce4-b3ed-0f6d2950bbb4")
+	)
+	(wire
+		(pts
+			(xy 29.21 171.45) (xy 41.91 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "734399fc-3854-46bd-9f48-2258c8ca722a")
 	)
 	(wire
 		(pts
@@ -4026,16 +3947,6 @@
 			(type default)
 		)
 		(uuid "7ba54a70-ca1e-44e1-94cd-5623a539df9b")
-	)
-	(wire
-		(pts
-			(xy 41.91 163.83) (xy 29.21 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c3192f3-f244-4fc8-92b5-b641b059adfd")
 	)
 	(wire
 		(pts
@@ -4109,6 +4020,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 166.37) (xy 41.91 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cd85aa4-c15c-4268-a186-f330cb62a9fc")
+	)
+	(wire
+		(pts
 			(xy 228.6 48.26) (xy 238.76 48.26)
 		)
 		(stroke
@@ -4156,16 +4077,6 @@
 			(type default)
 		)
 		(uuid "932eccdb-fa12-4868-ab7c-0a998a0818ed")
-	)
-	(wire
-		(pts
-			(xy 41.91 171.45) (xy 29.21 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94bb904a-eed6-4481-b422-a20d67aa5dce")
 	)
 	(wire
 		(pts
@@ -4299,16 +4210,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 44.45) (xy 36.83 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aef350a5-c774-4b4e-9918-071675be07cf")
-	)
-	(wire
-		(pts
 			(xy 163.83 60.96) (xy 198.12 60.96)
 		)
 		(stroke
@@ -4439,6 +4340,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 168.91) (xy 41.91 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d191ed-591d-4059-a445-bfa86ca9cd08")
+	)
+	(wire
+		(pts
 			(xy 127 147.32) (xy 137.16 147.32)
 		)
 		(stroke
@@ -4486,16 +4397,6 @@
 			(type default)
 		)
 		(uuid "cf83b9e4-c788-49d4-b207-de45bdcabadd")
-	)
-	(wire
-		(pts
-			(xy 41.91 166.37) (xy 29.21 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1411e1b-ec13-4624-9059-305e19e6f2d4")
 	)
 	(wire
 		(pts
@@ -4666,16 +4567,6 @@
 			(type default)
 		)
 		(uuid "f13ffb27-9d58-420e-ba74-2a2a38d196ad")
-	)
-	(wire
-		(pts
-			(xy 41.91 161.29) (xy 29.21 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f20e6163-dbf5-4659-b744-043e1ec48d72")
 	)
 	(wire
 		(pts
@@ -4889,17 +4780,6 @@
 		)
 		(uuid "03af30cf-b7e6-474e-b3a6-e1e555d39bb3")
 	)
-	(label "Batt Out"
-		(at 116.84 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "03fbb53a-cb0a-4eb6-8fd8-7e2fb4eb5c3f")
-	)
 	(label "Sol In"
 		(at 116.84 62.23 180)
 		(fields_autoplaced yes)
@@ -4912,7 +4792,7 @@
 		(uuid "06bd5d5b-43ca-44f6-a000-6aa5d23b56c7")
 	)
 	(label "ADC V Sol"
-		(at 41.91 171.45 180)
+		(at 41.91 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4945,7 +4825,7 @@
 		(uuid "1855769f-263e-4cad-addb-656b8e6c9367")
 	)
 	(label "ADC I Sol"
-		(at 41.91 166.37 180)
+		(at 41.91 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5020,6 +4900,17 @@
 			(justify left bottom)
 		)
 		(uuid "4a2f8d6b-788e-4ba1-be5d-ca2bdbefa29d")
+	)
+	(label "Batt In"
+		(at 116.84 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4e6b89d7-7f4f-49f3-8ad7-e1bfecb28261")
 	)
 	(label "Board Temp"
 		(at 45.72 73.66 0)
@@ -5099,7 +4990,7 @@
 		(uuid "74480154-9eb8-41d3-b05a-afe0e4a5b9c0")
 	)
 	(label "PWM"
-		(at 36.83 44.45 180)
+		(at 34.29 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5120,7 +5011,7 @@
 		)
 		(uuid "87c46076-3757-4de7-b27a-f218a7b82850")
 	)
-	(label "Batt In"
+	(label "Batt Out"
 		(at 116.84 72.39 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5143,7 +5034,7 @@
 		(uuid "c43e91a3-a03f-471a-9793-76957b9da374")
 	)
 	(label "ADC I Batt"
-		(at 41.91 163.83 180)
+		(at 41.91 171.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5154,7 +5045,7 @@
 		(uuid "c657a402-a786-4d3f-b65a-e6ede481ccb4")
 	)
 	(label "Board Temp"
-		(at 41.91 161.29 180)
+		(at 41.91 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5275,7 +5166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 140.97 152.4 0)
 			(effects
 				(font
@@ -5359,7 +5250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 154.94 153.67 0)
 			(effects
 				(font
@@ -5443,7 +5334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 196.85 102.87 0)
 			(effects
 				(font
@@ -5499,7 +5390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/744325120.pdf"
+		(property "Datasheet" "~"
 			(at 140.97 48.26 0)
 			(effects
 				(font
@@ -5508,7 +5399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor"
 			(at 140.97 48.26 0)
 			(effects
 				(font
@@ -5543,7 +5434,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 31.75 36.83 0)
+		(at 39.37 38.1 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5552,7 +5443,7 @@
 		(dnp no)
 		(uuid "37ea05b0-fecc-4778-9d83-0a535900e945")
 		(property "Reference" "#PWR01"
-			(at 31.75 40.64 0)
+			(at 39.37 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5561,7 +5452,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 31.75 33.02 0)
+			(at 39.37 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5569,7 +5460,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 36.83 0)
+			(at 39.37 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5578,7 +5469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 36.83 0)
+			(at 39.37 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5586,8 +5477,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 31.75 36.83 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 39.37 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5652,7 +5543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 220.98 105.41 0)
 			(effects
 				(font
@@ -5709,7 +5600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/744325120.pdf"
+		(property "Datasheet" "~"
 			(at 153.67 48.26 0)
 			(effects
 				(font
@@ -5718,7 +5609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor"
 			(at 153.67 48.26 0)
 			(effects
 				(font
@@ -5804,7 +5695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 140.97 147.32 0)
 			(effects
 				(font
@@ -5887,7 +5778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 99.06 140.97 0)
 			(effects
 				(font
@@ -5948,7 +5839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/468/RO-1711124.pdf"
+		(property "Datasheet" "http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf"
 			(at 86.36 116.84 0)
 			(effects
 				(font
@@ -5957,7 +5848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3.3V to 5V 200mA, Isolated 2W Single-Output DC-DC Converter Modules with 3kV isolation, SIP-4"
 			(at 86.36 104.14 0)
 			(effects
 				(font
@@ -6168,6 +6059,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 33.02 48.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "601a58f8-3638-4e4e-b8f8-261d099c19ae")
+		(property "Reference" "#FLG04"
+			(at 34.925 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 36.83 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 33.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2915032c-775a-4cf1-9406-001434248ce3")
+		)
+		(instances
+			(project "power_v1"
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 123.19 129.54 0)
 		(unit 1)
@@ -6213,7 +6171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 123.19 129.54 0)
 			(effects
 				(font
@@ -6284,7 +6242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Galvanically isolated 4 A single gate driver, Dual Output, SOIC-8"
 			(at 114.3 149.86 0)
 			(effects
 				(font
@@ -6385,7 +6343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 87.63 140.97 0)
 			(effects
 				(font
@@ -6457,7 +6415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 163.83 63.5 0)
 			(effects
 				(font
@@ -6530,7 +6488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 99.06 135.89 0)
 			(effects
 				(font
@@ -6615,7 +6573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 63.5 99.06 0)
 			(effects
 				(font
@@ -6682,7 +6640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 63.5 109.22 0)
 			(effects
 				(font
@@ -6737,7 +6695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.andersonpower.com/content/dam/app/ecommerce/product-pdfs/DS-PP1545.pdf"
+		(property "Datasheet" "~"
 			(at 107.95 50.8 0)
 			(effects
 				(font
@@ -6746,7 +6704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 107.95 50.8 0)
 			(effects
 				(font
@@ -6834,7 +6792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.chemi-con.co.jp/products/relatedfiles/capacitor/catalog/KXJLL-e.PDF"
+		(property "Datasheet" "~"
 			(at 196.85 97.79 0)
 			(effects
 				(font
@@ -6843,7 +6801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor, US symbol"
 			(at 196.85 97.79 0)
 			(effects
 				(font
@@ -6929,7 +6887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 129.54 139.7 0)
 			(effects
 				(font
@@ -6999,7 +6957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 154.94 162.56 0)
 			(effects
 				(font
@@ -7083,7 +7041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 154.94 167.64 0)
 			(effects
 				(font
@@ -7146,7 +7104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/240/Littelfuse_04202021_littelfuse_discrete_mosfets_n_-2302298.pdf"
+		(property "Datasheet" "~"
 			(at 218.44 97.79 0)
 			(effects
 				(font
@@ -7155,7 +7113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
 			(at 218.44 97.79 0)
 			(effects
 				(font
@@ -7317,7 +7275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 31.75 49.53 0)
 			(effects
 				(font
@@ -7383,7 +7341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 19.05 64.77 0)
 			(effects
 				(font
@@ -7405,7 +7363,6 @@
 		)
 	)
 	(symbol
-		(lib_name "C_1")
 		(lib_id "device:C")
 		(at 68.58 104.14 0)
 		(unit 1)
@@ -7450,7 +7407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 68.58 104.14 0)
 			(effects
 				(font
@@ -7532,7 +7489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 21.59 44.45 0)
 			(effects
 				(font
@@ -7572,7 +7529,6 @@
 		)
 	)
 	(symbol
-		(lib_name "C_1")
 		(lib_id "device:C")
 		(at 58.42 104.14 0)
 		(unit 1)
@@ -7617,7 +7573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 58.42 104.14 0)
 			(effects
 				(font
@@ -7701,7 +7657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 118.11 162.56 0)
 			(effects
 				(font
@@ -7762,7 +7718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.andersonpower.com/content/dam/app/ecommerce/product-pdfs/DS-PP1545.pdf"
+		(property "Datasheet" "~"
 			(at 243.84 48.26 0)
 			(effects
 				(font
@@ -7771,7 +7727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 243.84 48.26 0)
 			(effects
 				(font
@@ -7867,7 +7823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 123.19 121.92 0)
 			(effects
 				(font
@@ -7952,7 +7908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 87.63 135.89 0)
 			(effects
 				(font
@@ -8035,7 +7991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 58.42 111.76 0)
 			(effects
 				(font
@@ -8106,7 +8062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
 			(at 19.05 72.39 0)
 			(effects
 				(font
@@ -8237,7 +8193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 153.67 41.91 0)
 			(effects
 				(font
@@ -8315,7 +8271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 120.65 135.89 0)
 			(effects
 				(font
@@ -8399,7 +8355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 87.63 129.54 0)
 			(effects
 				(font
@@ -8464,7 +8420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
 			(at 36.83 34.29 0)
 			(effects
 				(font
@@ -8615,7 +8571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 110.49 162.56 0)
 			(effects
 				(font
@@ -8686,7 +8642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 97.79 152.4 0)
 			(effects
 				(font
@@ -8750,7 +8706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.chemi-con.co.jp/products/relatedfiles/capacitor/catalog/KXJLL-e.PDF"
+		(property "Datasheet" "~"
 			(at 198.12 54.61 0)
 			(effects
 				(font
@@ -8759,7 +8715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor, US symbol"
 			(at 198.12 54.61 0)
 			(effects
 				(font
@@ -8837,7 +8793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
 			(at 58.42 97.79 0)
 			(effects
 				(font
@@ -8900,7 +8856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/240/Littelfuse_04202021_littelfuse_discrete_mosfets_n_-2302298.pdf"
+		(property "Datasheet" "~"
 			(at 161.29 54.61 0)
 			(effects
 				(font
@@ -8909,7 +8865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
 			(at 161.29 54.61 0)
 			(effects
 				(font
@@ -8996,7 +8952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 99.06 109.22 0)
 			(effects
 				(font
