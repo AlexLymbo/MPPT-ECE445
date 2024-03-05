@@ -5,6 +5,10 @@
 	(uuid "2a903511-b8c7-42f8-8315-cb727263f96f")
 	(paper "A4")
 	(title_block
+		(title "Power Board v1")
+		(date "2024-03-04")
+		(rev "1")
+		(company "Illini Solar Car")
 		(comment 1 "Designed By: Alex Lymberopoulos & Alex Chmiel & Akhil Pothineni")
 	)
 	(lib_symbols
@@ -4474,7 +4478,7 @@
 				)
 			)
 		)
-		(property "Footprint" "U_PAMC1350DWVR_TEX"
+		(property "Footprint" "layout:U_PAMC1350DWVR_TEX"
 			(at 167.64 119.38 0)
 			(effects
 				(font
@@ -5031,7 +5035,7 @@
 				)
 			)
 		)
-		(property "Footprint" "U_PAMC1350DWVR_TEX"
+		(property "Footprint" "layout:U_PAMC1350DWVR_TEX"
 			(at 167.64 140.97 0)
 			(effects
 				(font
@@ -5194,7 +5198,7 @@
 				)
 			)
 		)
-		(property "Footprint" "U_PAMC1350DWVR_TEX"
+		(property "Footprint" "layout:U_PAMC1350DWVR_TEX"
 			(at 167.64 63.5 0)
 			(effects
 				(font
@@ -7507,7 +7511,7 @@
 				)
 			)
 		)
-		(property "Footprint" "U_PAMC1350DWVR_TEX"
+		(property "Footprint" "layout:U_PAMC1350DWVR_TEX"
 			(at 167.64 85.09 0)
 			(effects
 				(font

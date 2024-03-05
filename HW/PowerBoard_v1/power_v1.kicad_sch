@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Power Board v1")
-		(date "2024-02-21")
+		(date "2024-03-04")
 		(rev "1")
 		(company "Illini Solar Car")
 		(comment 1 "Designed By: Alex Lymberopoulos & Alex Chmiel & Akhil Pothineni")
