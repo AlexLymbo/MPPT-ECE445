@@ -4919,7 +4919,7 @@
 		)
 		(uuid "e8ab826d-8a37-40e6-9b23-fd5c3fd0103e")
 	)
-	(label "SHUNT IN"
+	(label "Sol Out"
 		(at 128.27 48.26 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4940,6 +4940,28 @@
 			(justify left bottom)
 		)
 		(uuid "03af30cf-b7e6-474e-b3a6-e1e555d39bb3")
+	)
+	(label "Batt Out"
+		(at 116.84 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "03fbb53a-cb0a-4eb6-8fd8-7e2fb4eb5c3f")
+	)
+	(label "Sol In"
+		(at 116.84 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06bd5d5b-43ca-44f6-a000-6aa5d23b56c7")
 	)
 	(label "ADC V Sol"
 		(at 41.91 171.45 180)
@@ -4963,17 +4985,6 @@
 		)
 		(uuid "0f303b50-a0d4-48f0-8896-78114fc81ab1")
 	)
-	(label "Solar IN+"
-		(at 116.84 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "12c471b9-b7c0-4f12-b5fe-f002172393b8")
-	)
 	(label "Gate"
 		(at 152.4 149.86 180)
 		(fields_autoplaced yes)
@@ -4984,17 +4995,6 @@
 			(justify right bottom)
 		)
 		(uuid "1855769f-263e-4cad-addb-656b8e6c9367")
-	)
-	(label "Solar IN+"
-		(at 123.19 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1ca65415-87c2-4bae-993a-d8ed696478ff")
 	)
 	(label "DNP Source"
 		(at 170.18 59.69 0)
@@ -5007,17 +5007,6 @@
 		)
 		(uuid "274bd463-9dc3-44d7-8db6-29b0a5d09102")
 	)
-	(label "Solar IN-"
-		(at 123.19 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2cf9e018-3090-4896-9c34-0e4b90d0edee")
-	)
 	(label "ADC I Sol"
 		(at 41.91 166.37 180)
 		(fields_autoplaced yes)
@@ -5028,17 +5017,6 @@
 			(justify right bottom)
 		)
 		(uuid "2faece8f-7cca-4939-9616-5b04ca6f90f1")
-	)
-	(label "SHUNT OUT"
-		(at 116.84 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "316d367b-c360-4e0b-b164-00d3b551a442")
 	)
 	(label "Gate"
 		(at 210.82 97.79 0)
@@ -5161,7 +5139,7 @@
 		)
 		(uuid "6bf1891b-666a-411a-9678-4ec19bd1eebf")
 	)
-	(label "SHUNT OUT"
+	(label "Batt In"
 		(at 223.52 48.26 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5172,8 +5150,8 @@
 		)
 		(uuid "7199f0ce-c7f6-4d34-b343-f5a55aa5293d")
 	)
-	(label "Batt Out+"
-		(at 116.84 74.93 180)
+	(label "Sol Out"
+		(at 116.84 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5181,7 +5159,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "740f60c4-44a3-4177-b68c-d15fe11531a4")
+		(uuid "74480154-9eb8-41d3-b05a-afe0e4a5b9c0")
 	)
 	(label "PWM"
 		(at 36.83 44.45 180)
@@ -5194,7 +5172,7 @@
 		)
 		(uuid "8693b357-3336-458d-bdd9-d218e6a50a20")
 	)
-	(label "Batt Out+"
+	(label "Batt Out"
 		(at 228.6 48.26 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5205,8 +5183,8 @@
 		)
 		(uuid "87c46076-3757-4de7-b27a-f218a7b82850")
 	)
-	(label "SHUNT IN"
-		(at 116.84 64.77 180)
+	(label "Batt In"
+		(at 116.84 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5214,7 +5192,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "a1abf233-79b1-42cb-8a7e-e13d094d230f")
+		(uuid "87cd6829-1719-449c-81cd-8c51be4d4878")
 	)
 	(label "DNP Source"
 		(at 220.98 105.41 0)
@@ -5226,6 +5204,17 @@
 			(justify left bottom)
 		)
 		(uuid "bad4f3bc-7ae9-4b67-aafb-3816e5f6ddf6")
+	)
+	(label "Sol In"
+		(at 123.19 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c43e91a3-a03f-471a-9793-76957b9da374")
 	)
 	(label "ADC I Batt"
 		(at 41.91 163.83 180)
@@ -5259,17 +5248,6 @@
 			(justify left bottom)
 		)
 		(uuid "cbf9ab55-007c-4afe-8fe6-5e7c54085a87")
-	)
-	(label "Batt Out-"
-		(at 238.76 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d446f2c2-020e-4010-ae11-2fe16134fad7")
 	)
 	(label "SW_G+"
 		(at 127 147.32 0)
@@ -9098,27 +9076,7 @@
 			)
 			(uuid "8c49dea4-e93f-4cfc-8d69-1a3a8efad743")
 		)
-		(pin "Batt Out+" output
-			(at 105.41 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "f0438f86-66cd-49a7-b76c-db04ff04a125")
-		)
-		(pin "SHUNT OUT" input
-			(at 105.41 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "5388bb48-08dc-4c18-8f8b-b4da1dc9927f")
-		)
-		(pin "Solar IN+" input
+		(pin "Sol In" input
 			(at 105.41 62.23 0)
 			(effects
 				(font
@@ -9126,9 +9084,9 @@
 				)
 				(justify right)
 			)
-			(uuid "6686d211-6a79-42b3-9b17-309015c30905")
+			(uuid "0570be45-793b-4fc1-b009-82db3bc8b9a0")
 		)
-		(pin "SHUNT IN" output
+		(pin "Sol Out" output
 			(at 105.41 64.77 0)
 			(effects
 				(font
@@ -9136,7 +9094,27 @@
 				)
 				(justify right)
 			)
-			(uuid "c105c107-586d-4eed-b08e-0780b81b8c3c")
+			(uuid "2186426c-ce66-43e8-b10b-5ad6de39ea5d")
+		)
+		(pin "Batt Out" output
+			(at 105.41 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2fa827f4-90dc-4bba-95af-b446c2e26988")
+		)
+		(pin "Batt In" input
+			(at 105.41 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "91f8d3e6-9c1f-4471-8a38-9ef446956182")
 		)
 		(instances
 			(project "power_v1"

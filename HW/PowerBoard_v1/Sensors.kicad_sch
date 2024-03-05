@@ -2802,6 +2802,16 @@
 		)
 		(uuid "6309d8e3-2010-42f1-bf72-f032ab297f00")
 	)
+	(wire
+		(pts
+			(xy 245.11 129.54) (xy 255.27 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6511bb6a-5303-4dd7-bd1e-b8eb826fc3c6")
+	)
 	(polyline
 		(pts
 			(xy 147.32 135.89) (xy 147.32 132.08)
@@ -3064,7 +3074,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 134.62) (xy 245.11 134.62)
+			(xy 255.27 134.62) (xy 245.11 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3384,7 +3394,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 139.7) (xy 259.08 139.7)
+			(xy 245.11 139.7) (xy 255.27 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3444,16 +3454,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 129.54) (xy 245.11 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1aefa39-5fd7-4ffc-badf-8d24b1524451")
-	)
-	(wire
-		(pts
 			(xy 127 71.12) (xy 124.46 71.12)
 		)
 		(stroke
@@ -3474,7 +3474,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 124.46) (xy 259.08 124.46)
+			(xy 245.11 124.46) (xy 255.27 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3811,8 +3811,8 @@
 		)
 		(uuid "cd8ed3df-47db-4e48-a7fd-01965910111b")
 	)
-	(label "I- Sense Batt"
-		(at 179.07 146.05 180)
+	(label "Sol Out"
+		(at 265.43 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3820,7 +3820,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "01139f51-7733-4dc1-abf7-b3f187191de8")
+		(uuid "0943fa72-b467-4127-a13a-d2a554ab5283")
+	)
+	(label "Batt In"
+		(at 179.07 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0a9def71-294f-4814-a1be-d970ca68997a")
 	)
 	(label "ADC V Batt"
 		(at 53.34 38.1 180)
@@ -3832,17 +3843,6 @@
 			(justify right bottom)
 		)
 		(uuid "2047bb8d-70d8-49a5-81de-e7bc3b144ec4")
-	)
-	(label "I- Sense Sol"
-		(at 265.43 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "24867cf7-493e-47b3-9fc4-812d76774eb0")
 	)
 	(label "ADC I Batt"
 		(at 116.84 143.51 0)
@@ -3877,6 +3877,17 @@
 		)
 		(uuid "40d547a8-5a6c-48a3-ae57-f4c1854fe961")
 	)
+	(label "Batt In"
+		(at 261.62 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "465ca3d4-f2c8-4bde-9046-b0068dbb1f20")
+	)
 	(label "V Sense Sol"
 		(at 234.95 49.53 180)
 		(fields_autoplaced yes)
@@ -3888,7 +3899,7 @@
 		)
 		(uuid "514993bb-963c-4e4c-a5af-41b23edcfba3")
 	)
-	(label "I+ Sense Sol"
+	(label "Sol In"
 		(at 245.11 124.46 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3921,17 +3932,6 @@
 		)
 		(uuid "760399ee-ea51-40ed-9f04-babec0b91e7c")
 	)
-	(label "I+ Sense Sol"
-		(at 232.41 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7a34c8bd-d099-430e-88ec-bf18ab0432c4")
-	)
 	(label "ADC V Sol"
 		(at 116.84 66.04 0)
 		(fields_autoplaced yes)
@@ -3943,8 +3943,8 @@
 		)
 		(uuid "8075afd5-b0f6-476d-81cf-230014d5039f")
 	)
-	(label "I- Sense Sol"
-		(at 179.07 124.46 180)
+	(label "Sol In"
+		(at 179.07 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3952,18 +3952,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "80b56c41-fb3c-4cbb-8fb9-8c8a51498ddf")
-	)
-	(label "I- Sense Batt"
-		(at 265.43 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "862f49b1-f5b6-49af-8f51-cca197e27d8e")
+		(uuid "82890bc4-438a-4bfa-95a0-8e9af3ba3704")
 	)
 	(label "V Sense Batt"
 		(at 257.81 49.53 180)
@@ -3976,8 +3965,8 @@
 		)
 		(uuid "88bfea71-bec4-4470-8aac-2a58cf6c392c")
 	)
-	(label "Solar IN+"
-		(at 238.76 31.75 0)
+	(label "Batt In"
+		(at 232.41 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3985,10 +3974,21 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "97f69508-1f79-43e9-8f83-7b33c1e34be6")
+		(uuid "9bf9339d-4b4d-4c78-ad19-f7061f8a2d38")
 	)
-	(label "I- Sense Sol"
-		(at 257.81 129.54 180)
+	(label "Sol Out"
+		(at 179.07 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b842d8d7-1432-4e8c-80b7-1506540119d8")
+	)
+	(label "Sol Out"
+		(at 252.73 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3997,6 +3997,28 @@
 			(justify right bottom)
 		)
 		(uuid "c17fa4d7-0045-4807-aeff-8cb64a5fee49")
+	)
+	(label "Sol In"
+		(at 232.41 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c19fb007-7462-413c-b567-bde8bdd3d8df")
+	)
+	(label "Batt Out"
+		(at 179.07 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c2c1cb25-e643-446d-8227-a3f70475671e")
 	)
 	(label "V Sense Batt"
 		(at 179.07 87.63 180)
@@ -4009,8 +4031,8 @@
 		)
 		(uuid "c8438665-a171-4aa4-8ca5-d5bea087c931")
 	)
-	(label "I+ Sense Sol"
-		(at 179.07 121.92 180)
+	(label "Batt Out"
+		(at 265.43 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4018,7 +4040,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "c879ebe1-e11f-4b10-95bc-ca1fbf7c0839")
+		(uuid "c96f8901-7e22-4ceb-abd0-07b2a69b4860")
 	)
 	(label "ADC I Sol"
 		(at 53.34 43.18 180)
@@ -4031,7 +4053,7 @@
 		)
 		(uuid "ce666d12-a8a1-49c9-8d02-1578714da7ee")
 	)
-	(label "I- Sense Batt"
+	(label "Batt Out"
 		(at 245.11 139.7 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4053,19 +4075,8 @@
 		)
 		(uuid "e69f875a-08e8-4045-9425-7ecbb4748cdf")
 	)
-	(label "I+ Sense Batt"
-		(at 179.07 143.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e9d04029-165f-4b9e-ab5f-345bb5bba3b6")
-	)
-	(label "I+ Sense Batt"
-		(at 232.41 93.98 0)
+	(label "Sol In"
+		(at 238.76 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4073,20 +4084,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ef8ca78b-45fc-453d-824c-b65686680881")
+		(uuid "f379c60a-5f28-4e5a-8e9b-753337368b81")
 	)
-	(label "Batt IN+"
-		(at 261.62 31.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eff152a6-8253-4dde-babd-4b309bec533e")
-	)
-	(label "I+ Sense Batt"
+	(label "Batt In"
 		(at 245.11 134.62 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4109,9 +4109,9 @@
 		)
 		(uuid "0d168d0a-a6a9-4bc4-83af-7d33a36ef538")
 	)
-	(hierarchical_label "SHUNT OUT"
+	(hierarchical_label "Batt In"
 		(shape input)
-		(at 259.08 134.62 0)
+		(at 255.27 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4121,9 +4121,9 @@
 		)
 		(uuid "53fd7d06-77b1-4055-b036-bd915bda65b5")
 	)
-	(hierarchical_label "Solar IN+"
+	(hierarchical_label "Sol In"
 		(shape input)
-		(at 259.08 124.46 0)
+		(at 255.27 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4157,9 +4157,9 @@
 		)
 		(uuid "9e336938-7dd1-4726-a48f-98490fee7e21")
 	)
-	(hierarchical_label "Batt Out+"
+	(hierarchical_label "Batt Out"
 		(shape output)
-		(at 259.08 139.7 0)
+		(at 255.27 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4193,9 +4193,9 @@
 		)
 		(uuid "e2584500-c979-4669-9636-febb959c76a2")
 	)
-	(hierarchical_label "SHUNT IN"
+	(hierarchical_label "Sol Out"
 		(shape output)
-		(at 259.08 129.54 0)
+		(at 255.27 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8498,6 +8498,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
