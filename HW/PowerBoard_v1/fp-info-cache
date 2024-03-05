@@ -1,4 +1,4 @@
-21690871460339495
+21692581183370167
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -75283,6 +75283,13 @@ TO-263 / D2PAK / DDPAK SMD package, tab to pin 1, https://www.wolfspeed.com/medi
 D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404 diode
 0
 7
+2
+Package_TO_SOT_SMD
+TO-263-2_isolatedback
+TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
+D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
+0
+6
 2
 Package_TO_SOT_SMD
 TO-263-3_TabPin2

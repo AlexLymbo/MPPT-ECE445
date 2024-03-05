@@ -4654,7 +4654,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2_TabPin1"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2_isolatedback"
 			(at 249.174 92.964 90)
 			(effects
 				(font
@@ -7967,7 +7967,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2_TabPin1"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2_isolatedback"
 			(at 249.174 82.804 90)
 			(effects
 				(font
