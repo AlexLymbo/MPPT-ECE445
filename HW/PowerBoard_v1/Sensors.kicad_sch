@@ -4514,6 +4514,90 @@
 		)
 	)
 	(symbol
+		(lib_id "device:R_US")
+		(at 248.92 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ab8d37f-b1bc-4639-9cdd-3b2a15b7ffbc")
+		(property "Reference" "R11"
+			(at 248.92 91.186 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.75"
+			(at 248.92 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2_TabPin1"
+			(at 249.174 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PWR263S-35.pdf"
+			(at 248.92 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 248.92 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PWR263S-35-R750F "
+			(at 248.92 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "Isense"
+			(at 243.332 96.012 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d5ee6f08-cb40-4670-8859-839ce5802501")
+		)
+		(pin "1"
+			(uuid "212a345c-fc4a-4d99-a625-b2dac695b7c0")
+		)
+		(instances
+			(project "power_v1"
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/f37b00a5-62bb-47d6-b18e-0a47b6349fc3"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 170.18 93.98 0)
 		(mirror y)
@@ -6112,7 +6196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Note" "Rsense"
+		(property "Note" "Vsense"
 			(at 231.648 54.356 0)
 			(effects
 				(font
@@ -7685,25 +7769,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ad0150bd-1d43-4c44-9ad8-a651136b055f")
 		(property "Reference" "R10"
-			(at 248.92 77.47 90)
+			(at 248.92 81.026 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_US"
-			(at 248.92 80.01 90)
+		(property "Value" "0.75"
+			(at 248.92 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2_TabPin1"
 			(at 249.174 82.804 90)
 			(effects
 				(font
@@ -7712,7 +7795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PWR263S-35.pdf"
 			(at 248.92 83.82 0)
 			(effects
 				(font
@@ -7728,6 +7811,23 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "PWR263S-35-R750F "
+			(at 248.92 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "Isense"
+			(at 243.332 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8392,7 +8492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Note" "Rsense"
+		(property "Note" "Vsense"
 			(at 254.508 54.356 0)
 			(effects
 				(font
@@ -8721,74 +8821,6 @@
 			(project "power_v1"
 				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/f37b00a5-62bb-47d6-b18e-0a47b6349fc3"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "device:R_US")
-		(at 248.92 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8ff153b-81b6-4421-ade4-579d593533a3")
-		(property "Reference" "R11"
-			(at 248.92 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_US"
-			(at 248.92 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 249.174 92.964 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 248.92 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 248.92 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dec5d6ad-7963-4e4a-9009-2ef29b2bcbf8")
-		)
-		(pin "1"
-			(uuid "c2699ebd-91ae-4748-8eab-3830aff13126")
-		)
-		(instances
-			(project "power_v1"
-				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/f37b00a5-62bb-47d6-b18e-0a47b6349fc3"
-					(reference "R11")
 					(unit 1)
 				)
 			)
