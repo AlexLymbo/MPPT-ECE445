@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "MPPT Logic Board")
+    (date "2024-03-04")
+    (rev "1.0")
+    (company "Illini Solar Car")
+    (comment 1 "Designed By: Alex Chmiel")
+  )
+
   (lib_symbols
     (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 0 6.858 0)
@@ -1301,10 +1309,10 @@
   (symbol (lib_id "device:C") (at 97.282 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 056d56db-3982-4698-971e-969c89b461fa)
-    (property "Reference" "C9" (at 100.203 68.6816 0)
+    (property "Reference" "C8" (at 100.203 68.6816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1μF" (at 100.203 70.993 0)
+    (property "Value" "1uF" (at 100.203 70.993 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 97.282 69.85 0)
@@ -1321,7 +1329,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/2aa567e7-a708-4e3f-a690-3b6ea005a343"
-          (reference "C9") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
       (project "PDS_control_v5.0"
@@ -1335,7 +1343,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 168.402 74.93 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a3c2ff4-6a1d-443a-bfde-31462367e4d4)
-    (property "Reference" "#FLG02" (at 168.402 76.835 0)
+    (property "Reference" "#FLG04" (at 168.402 76.835 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 168.402 79.3242 0)
@@ -1351,7 +1359,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/2aa567e7-a708-4e3f-a690-3b6ea005a343"
-          (reference "#FLG02") (unit 1)
+          (reference "#FLG04") (unit 1)
         )
       )
       (project "PDS_control_v5.0"
@@ -1365,10 +1373,10 @@
   (symbol (lib_id "device:C") (at 108.712 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a0622f2-d1bf-41be-a0a7-de04a4863039)
-    (property "Reference" "C10" (at 111.633 68.6816 0)
+    (property "Reference" "C9" (at 111.633 68.6816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1μF" (at 111.633 70.993 0)
+    (property "Value" "0.1uF" (at 111.633 70.993 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 108.712 69.85 0)
@@ -1385,7 +1393,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/2aa567e7-a708-4e3f-a690-3b6ea005a343"
-          (reference "C10") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
       (project "PDS_control_v5.0"
@@ -1399,10 +1407,10 @@
   (symbol (lib_id "device:C") (at 125.222 114.3 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b1c9521-eb9b-4c51-b086-eed5b4c99203)
-    (property "Reference" "C11" (at 122.301 113.1316 0)
+    (property "Reference" "C10" (at 122.301 113.1316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1μF" (at 122.301 115.443 0)
+    (property "Value" "0.1uF" (at 122.301 115.443 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 125.222 114.3 0)
@@ -1419,7 +1427,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/2aa567e7-a708-4e3f-a690-3b6ea005a343"
-          (reference "C11") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
       (project "PDS_control_v5.0"
@@ -1433,7 +1441,7 @@
   (symbol (lib_id "power:+3V3") (at 88.392 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23035d17-407e-4a90-b653-c936db992b96)
-    (property "Reference" "#PWR012" (at 88.392 64.77 0)
+    (property "Reference" "#PWR09" (at 88.392 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 88.773 56.5658 0)
@@ -1449,7 +1457,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/2aa567e7-a708-4e3f-a690-3b6ea005a343"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
       (project "PDS_control_v5.0"
@@ -1463,7 +1471,7 @@
   (symbol (lib_id "Regulator_Linear:MCP1700-5002E_SOT23") (at 135.382 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 37b42299-b2ba-4b76-bd7b-defe33d1c9fa)
-    (property "Reference" "U3" (at 135.382 103.0732 0)
+    (property "Reference" "U2" (at 135.382 103.0732 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MCP1754S-5002E_SOT23A" (at 144.272 105.41 0)
@@ -1484,7 +1492,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/2aa567e7-a708-4e3f-a690-3b6ea005a343"
-          (reference "U3") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
       (project "PDS_control_v5.0"
@@ -1498,7 +1506,7 @@
   (symbol (lib_id "device:LED") (at 206.502 119.38 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 39fbb67b-6305-46ec-a2f3-039cffcabe75)
-    (property "Reference" "D8" (at 206.3242 112.903 0)
+    (property "Reference" "D2" (at 206.3242 112.903 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Yellow" (at 206.3242 115.2144 0)
@@ -1521,7 +1529,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/2aa567e7-a708-4e3f-a690-3b6ea005a343"
-          (reference "D8") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
       (project "PDS_control_v5.0"
@@ -1535,10 +1543,10 @@
   (symbol (lib_id "device:C") (at 182.372 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 41ceb064-c913-482e-9663-f4ffc90afafa)
-    (property "Reference" "C14" (at 185.293 68.6816 0)
+    (property "Reference" "C13" (at 185.293 68.6816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1μF" (at 185.293 70.993 0)
+    (property "Value" "0.1uF" (at 185.293 70.993 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 182.372 69.85 0)
@@ -1555,7 +1563,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/2aa567e7-a708-4e3f-a690-3b6ea005a343"
-          (reference "C14") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
       (project "PDS_control_v5.0"
@@ -1569,7 +1577,7 @@
   (symbol (lib_id "device:R") (at 113.792 120.65 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 589eb07b-bd79-4fc0-8c5f-f28991a85cee)
-    (property "Reference" "R11" (at 113.792 118.11 90)
+    (property "Reference" "R7" (at 113.792 118.11 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 113.792 120.65 90)
@@ -1592,7 +1600,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/2aa567e7-a708-4e3f-a690-3b6ea005a343"
-          (reference "R11") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
       (project "PDS_control_v5.0"
@@ -1606,13 +1614,13 @@
   (symbol (lib_id "Connector:TestPoint") (at 169.672 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 62816ba7-afcd-4805-8dc3-e6ddad5520db)
-    (property "Reference" "TP7" (at 171.1452 102.4128 0)
+    (property "Reference" "TP4" (at 171.1452 102.4128 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "+5V_CAN" (at 171.1452 104.7242 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (at 174.752 105.41 0)
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 174.752 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 174.752 105.41 0)
@@ -1625,7 +1633,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/2aa567e7-a708-4e3f-a690-3b6ea005a343"
-          (reference "TP7") (unit 1)
+          (reference "TP4") (unit 1)
         )
       )
       (project "PDS_control_v5.0"
@@ -1639,10 +1647,10 @@
   (symbol (lib_id "device:C") (at 172.212 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6521d70d-3b96-4515-a2ec-c96dea4d43ba)
-    (property "Reference" "C13" (at 175.133 68.6816 0)
+    (property "Reference" "C12" (at 175.133 68.6816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10μF" (at 175.133 70.993 0)
+    (property "Value" "10uF" (at 175.133 70.993 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 172.212 69.85 0)
@@ -1659,7 +1667,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/2aa567e7-a708-4e3f-a690-3b6ea005a343"
-          (reference "C13") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
       (project "PDS_control_v5.0"
@@ -1673,7 +1681,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x05") (at 66.802 115.57 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f70a997-4037-4c77-a57f-15a3c4e041ef)
-    (property "Reference" "J5" (at 68.8848 104.775 0)
+    (property "Reference" "J6" (at 68.8848 104.775 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CAN" (at 68.8848 107.0864 0)
@@ -1699,7 +1707,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/2aa567e7-a708-4e3f-a690-3b6ea005a343"
-          (reference "J5") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
       (project "PDS_control_v5.0"
@@ -1713,10 +1721,10 @@
   (symbol (lib_id "device:C") (at 88.392 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 778697a7-988f-4536-a110-2321cfbbb381)
-    (property "Reference" "C8" (at 85.471 68.6816 0)
+    (property "Reference" "C7" (at 85.471 68.6816 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "10μF" (at 85.471 70.993 0)
+    (property "Value" "10uF" (at 85.471 70.993 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 88.392 69.85 0)
@@ -1733,7 +1741,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/2aa567e7-a708-4e3f-a690-3b6ea005a343"
-          (reference "C8") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
       (project "PDS_control_v5.0"
@@ -1747,7 +1755,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 126.492 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 828fc81f-97c3-40eb-948a-4a34a0650f05)
-    (property "Reference" "#FLG01" (at 126.492 107.315 0)
+    (property "Reference" "#FLG03" (at 126.492 107.315 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 126.492 104.8258 0)
@@ -1763,7 +1771,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/2aa567e7-a708-4e3f-a690-3b6ea005a343"
-          (reference "#FLG01") (unit 1)
+          (reference "#FLG03") (unit 1)
         )
       )
       (project "PDS_control_v5.0"
@@ -1777,13 +1785,13 @@
   (symbol (lib_id "Connector:TestPoint") (at 109.982 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 960a4643-89d6-4e77-95b6-04c7b04f73d0)
-    (property "Reference" "TP5" (at 111.4552 99.8728 0)
+    (property "Reference" "TP2" (at 111.4552 99.8728 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CAN_VCC_Fused" (at 111.4552 102.1842 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (at 115.062 102.87 0)
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 115.062 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 115.062 102.87 0)
@@ -1796,7 +1804,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/2aa567e7-a708-4e3f-a690-3b6ea005a343"
-          (reference "TP5") (unit 1)
+          (reference "TP2") (unit 1)
         )
       )
       (project "PDS_control_v5.0"
@@ -1810,7 +1818,7 @@
   (symbol (lib_id "device:R") (at 165.862 125.73 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9718003c-1786-4041-b739-9ee337b75afb)
-    (property "Reference" "R12" (at 165.862 123.19 90)
+    (property "Reference" "R8" (at 165.862 123.19 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "120" (at 165.862 125.73 90)
@@ -1830,7 +1838,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/2aa567e7-a708-4e3f-a690-3b6ea005a343"
-          (reference "R12") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
       (project "PDS_control_v5.0"
@@ -1885,10 +1893,10 @@
   (symbol (lib_id "device:C") (at 145.542 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae2e5401-ca10-41f3-8b33-4847122d080e)
-    (property "Reference" "C12" (at 148.463 113.1316 0)
+    (property "Reference" "C11" (at 148.463 113.1316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1μF" (at 148.463 115.443 0)
+    (property "Value" "0.1uF" (at 148.463 115.443 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 145.542 114.3 0)
@@ -1905,7 +1913,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/2aa567e7-a708-4e3f-a690-3b6ea005a343"
-          (reference "C12") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
       (project "PDS_control_v5.0"
@@ -1919,7 +1927,7 @@
   (symbol (lib_id "ICs:ISO1042DWV") (at 146.812 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b24fc0d4-6faf-4506-895d-a3685cea9438)
-    (property "Reference" "U4" (at 146.812 57.9882 0)
+    (property "Reference" "U3" (at 146.812 57.9882 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ISO1042DWV" (at 146.812 60.2996 0)
@@ -1945,7 +1953,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/2aa567e7-a708-4e3f-a690-3b6ea005a343"
-          (reference "U4") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
       (project "PDS_control_v5.0"
@@ -1959,7 +1967,7 @@
   (symbol (lib_id "Discrete_SMD:Polyfuse") (at 104.902 109.22 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b2aa87a6-661a-4fbd-b80b-9017f4df1842)
-    (property "Reference" "F2" (at 104.902 103.505 0)
+    (property "Reference" "F1" (at 104.902 103.505 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.2A" (at 104.902 105.8164 0)
@@ -1979,7 +1987,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/2aa567e7-a708-4e3f-a690-3b6ea005a343"
-          (reference "F2") (unit 1)
+          (reference "F1") (unit 1)
         )
       )
       (project "PDS_control_v5.0"
@@ -1993,13 +2001,13 @@
   (symbol (lib_id "Connector:TestPoint") (at 164.592 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b383bfe1-c343-4624-8a7b-6d3bb1aa0e6c)
-    (property "Reference" "TP6" (at 166.0652 112.5728 0)
+    (property "Reference" "TP3" (at 166.0652 112.5728 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GND_CAN" (at 166.0652 114.8842 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (at 169.672 115.57 0)
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 169.672 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 169.672 115.57 0)
@@ -2012,7 +2020,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/2aa567e7-a708-4e3f-a690-3b6ea005a343"
-          (reference "TP6") (unit 1)
+          (reference "TP3") (unit 1)
         )
       )
       (project "PDS_control_v5.0"
@@ -2026,7 +2034,7 @@
   (symbol (lib_id "device:R") (at 212.852 114.3 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bcb83b97-828c-4290-93c9-844f8146b3c2)
-    (property "Reference" "R13" (at 214.122 114.3 0)
+    (property "Reference" "R9" (at 214.122 114.3 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (at 212.852 115.57 90)
@@ -2046,7 +2054,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/2aa567e7-a708-4e3f-a690-3b6ea005a343"
-          (reference "R13") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
       (project "PDS_control_v5.0"
@@ -2060,7 +2068,7 @@
   (symbol (lib_id "power:GND") (at 88.392 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ccdece02-a6f6-408d-8fae-0da24a56891f)
-    (property "Reference" "#PWR013" (at 88.392 87.63 0)
+    (property "Reference" "#PWR010" (at 88.392 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 88.519 85.6742 0)
@@ -2076,7 +2084,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/2aa567e7-a708-4e3f-a690-3b6ea005a343"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
       (project "PDS_control_v5.0"
@@ -2090,7 +2098,7 @@
   (symbol (lib_id "Discrete_SMD:PESD1CAN") (at 141.732 149.86 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dd841d74-0f41-4c35-8c6a-dd0a17a7dc85)
-    (property "Reference" "D7" (at 141.732 142.4432 90)
+    (property "Reference" "D1" (at 141.732 142.4432 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PESD1CAN" (at 141.732 144.7546 90)
@@ -2111,7 +2119,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/2aa567e7-a708-4e3f-a690-3b6ea005a343"
-          (reference "D7") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
       (project "PDS_control_v5.0"

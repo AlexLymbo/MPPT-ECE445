@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "MPPT Logic Board")
+    (date "2024-03-04")
+    (rev "1.0")
+    (company "Illini Solar Car")
+    (comment 1 "Designed By: Alex Chmiel")
+  )
+
   (lib_symbols
     (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 0 6.858 0)
@@ -906,9 +914,6 @@
   (junction (at 190.5 70.358) (diameter 0) (color 0 0 0 0)
     (uuid 7b70abfe-e887-48d8-afa4-60c0d72b2508)
   )
-  (junction (at 26.924 54.864) (diameter 0) (color 0 0 0 0)
-    (uuid 82c4e93d-6603-43d6-9cff-f537d2dbe261)
-  )
   (junction (at 115.824 66.548) (diameter 0) (color 0 0 0 0)
     (uuid acd17be1-2755-4bfb-b888-1c773cde92a1)
   )
@@ -923,9 +928,6 @@
   )
   (junction (at 113.284 53.848) (diameter 0) (color 0 0 0 0)
     (uuid d700b9a0-a305-4103-8941-99a8b6238186)
-  )
-  (junction (at 153.924 53.848) (diameter 0) (color 0 0 0 0)
-    (uuid e9a3f254-29ee-49bd-b22e-8ba4802ac64e)
   )
   (junction (at 40.894 66.294) (diameter 0) (color 0 0 0 0)
     (uuid ed7f5113-3ccb-457a-9925-1ec7c563ba11)
@@ -1005,10 +1007,6 @@
     (stroke (width 0) (type default))
     (uuid 34d14a6b-c8de-4789-8872-9d69748363c7)
   )
-  (wire (pts (xy 26.924 49.784) (xy 26.924 54.864))
-    (stroke (width 0) (type default))
-    (uuid 3e22433f-796f-41da-b9a3-e8f49f3f2fe8)
-  )
   (wire (pts (xy 175.514 70.358) (xy 187.96 70.358))
     (stroke (width 0) (type default))
     (uuid 3e5d2ad8-36e3-4fb1-ae1d-aa07cc3b7e9d)
@@ -1021,7 +1019,7 @@
     (stroke (width 0) (type default))
     (uuid 41e534dc-ed9a-4415-bd86-15a23414b8c8)
   )
-  (wire (pts (xy 23.114 54.864) (xy 26.924 54.864))
+  (wire (pts (xy 23.114 54.864) (xy 29.464 54.864))
     (stroke (width 0) (type default))
     (uuid 4606dd7c-3ab9-4e1f-b708-5d12979c0835)
   )
@@ -1048,10 +1046,6 @@
   (wire (pts (xy 138.684 51.308) (xy 138.684 53.848))
     (stroke (width 0) (type default))
     (uuid 681895b1-dc8f-4bc6-9184-b3104c4012df)
-  )
-  (wire (pts (xy 153.924 51.308) (xy 153.924 53.848))
-    (stroke (width 0) (type default))
-    (uuid 6e68871b-9421-4e57-862a-a0a7600cf2ed)
   )
   (wire (pts (xy 190.5 70.358) (xy 199.644 70.358))
     (stroke (width 0) (type default))
@@ -1121,10 +1115,6 @@
     (stroke (width 0) (type default))
     (uuid aeb8fcb1-8213-43bd-91d4-13fa47fd7cd3)
   )
-  (wire (pts (xy 26.924 54.864) (xy 29.464 54.864))
-    (stroke (width 0) (type default))
-    (uuid aeffb7d4-c2aa-4bb8-b741-5e0bae7194d4)
-  )
   (wire (pts (xy 115.824 69.088) (xy 115.824 66.548))
     (stroke (width 0) (type default))
     (uuid b367264d-2817-4114-82ce-030d05df62a3)
@@ -1173,10 +1163,6 @@
     (stroke (width 0) (type default))
     (uuid e7f4a0a3-d731-4fa7-a9fd-f415ea5d0674)
   )
-  (wire (pts (xy 153.924 53.848) (xy 162.814 53.848))
-    (stroke (width 0) (type default))
-    (uuid ec4fc9e4-c86b-4fa1-bc21-7b541ce0bf9c)
-  )
   (wire (pts (xy 52.324 63.754) (xy 52.324 65.024))
     (stroke (width 0) (type default))
     (uuid ef893ab1-1f37-4c2e-a077-ad1cb32168fc)
@@ -1189,7 +1175,7 @@
     (stroke (width 0) (type default))
     (uuid f16bfd9b-737c-4cb2-8d93-0110ebfe4fa7)
   )
-  (wire (pts (xy 138.684 53.848) (xy 153.924 53.848))
+  (wire (pts (xy 138.684 53.848) (xy 162.814 53.848))
     (stroke (width 0) (type default))
     (uuid f4b2692f-5450-4b83-a84a-190f81b26d25)
   )
@@ -1265,13 +1251,13 @@
   (symbol (lib_id "Connector:TestPoint") (at 138.684 51.308 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 08d33643-008a-4b92-9f93-47931d2b412e)
-    (property "Reference" "TP8" (at 137.2108 48.26 0)
+    (property "Reference" "TP9" (at 137.2108 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Tach" (at 137.2108 50.5714 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" (at 133.604 51.308 0)
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 133.604 51.308 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 133.604 51.308 0)
@@ -1284,7 +1270,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/8aa6a7bb-8a1d-452d-93a1-bb589680df70"
-          (reference "TP8") (unit 1)
+          (reference "TP9") (unit 1)
         )
       )
       (project "BMS_v10.0"
@@ -1338,7 +1324,7 @@
   (symbol (lib_id "Device:C") (at 52.324 59.944 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1add95a2-4b95-4df5-89a9-6c035888b9a7)
-    (property "Reference" "C17" (at 55.245 58.7756 0)
+    (property "Reference" "C16" (at 55.245 58.7756 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 55.245 61.087 0)
@@ -1358,7 +1344,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/8aa6a7bb-8a1d-452d-93a1-bb589680df70"
-          (reference "C17") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
       (project "FansBoard_v3.1"
@@ -1372,7 +1358,7 @@
   (symbol (lib_id "Device:R") (at 162.814 46.228 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23e5e4b4-36c8-417e-9657-32fe5b792897)
-    (property "Reference" "R17" (at 160.655 47.498 90)
+    (property "Reference" "R15" (at 160.655 47.498 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 162.814 48.006 90)
@@ -1392,7 +1378,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/8aa6a7bb-8a1d-452d-93a1-bb589680df70"
-          (reference "R17") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
       (project "FansBoard_v3.1"
@@ -1449,7 +1435,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 175.514 64.008 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f6ad942-b4a5-4eda-a224-37ba71157137)
-    (property "Reference" "D11" (at 170.434 62.738 90)
+    (property "Reference" "D10" (at 170.434 62.738 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "40V 2A" (at 167.64 64.643 90)
@@ -1469,7 +1455,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/8aa6a7bb-8a1d-452d-93a1-bb589680df70"
-          (reference "D11") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
       (project "FansBoard_v3.1"
@@ -1526,72 +1512,6 @@
     )
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 26.924 49.784 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3638a366-0805-4281-bfa6-1b9813d5cfbc)
-    (property "Reference" "TP9" (at 28.321 46.9158 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Test Point" (at 28.321 48.1842 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (at 32.004 49.784 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 32.004 49.784 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4bd396c3-1fd9-4cc0-a842-b995a0898fed))
-    (instances
-      (project "LogicBoard_v1"
-        (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/8aa6a7bb-8a1d-452d-93a1-bb589680df70"
-          (reference "TP9") (unit 1)
-        )
-      )
-      (project "FansBoard_v3.1"
-        (path "/299e39c8-def1-49f9-92b0-d109a5404afe"
-          (reference "TP1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 153.924 51.308 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3bb20b87-9a38-47c3-aaea-10521c9f706f)
-    (property "Reference" "TP11" (at 155.321 48.4398 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint" (at 155.321 49.7082 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (at 159.004 51.308 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 159.004 51.308 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a8ed786c-be76-40a8-b5b2-b60280aa5344))
-    (instances
-      (project "LogicBoard_v1"
-        (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/8aa6a7bb-8a1d-452d-93a1-bb589680df70"
-          (reference "TP11") (unit 1)
-        )
-      )
-      (project "FansBoard_v3.1"
-        (path "/299e39c8-def1-49f9-92b0-d109a5404afe/00000000-0000-0000-0000-00005e086c3e"
-          (reference "TP3") (unit 1)
-        )
-        (path "/299e39c8-def1-49f9-92b0-d109a5404afe/00000000-0000-0000-0000-00005e086d6f"
-          (reference "TP4") (unit 1)
-        )
-        (path "/299e39c8-def1-49f9-92b0-d109a5404afe/00000000-0000-0000-0000-00005e086e34"
-          (reference "TP7") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:Q_NMOS_GSD") (at 172.72 102.108 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4122caf5-bf89-4aa2-817d-a0d0bdb713cd)
@@ -1630,7 +1550,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 170.434 51.308 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 49308124-9c6a-470b-aa16-717ef5f745a6)
-    (property "Reference" "#FLG03" (at 170.434 49.403 0)
+    (property "Reference" "#FLG05" (at 170.434 49.403 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 170.434 46.9138 0)
@@ -1646,7 +1566,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/8aa6a7bb-8a1d-452d-93a1-bb589680df70"
-          (reference "#FLG03") (unit 1)
+          (reference "#FLG05") (unit 1)
         )
       )
       (project "FansBoard_v3.1"
@@ -1666,7 +1586,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 209.55 53.848 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5505de06-0889-49fa-b5e6-07d2051d6ae9)
-    (property "Reference" "J6" (at 211.582 54.0512 0)
+    (property "Reference" "J7" (at 211.582 54.0512 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Fans" (at 211.582 56.3626 0)
@@ -1675,10 +1595,10 @@
     (property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" (at 209.55 53.848 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.molex.com/webdocs/datasheets/pdf/en-us/0436500400_PCB_HEADERS.pdf" (at 209.55 53.848 0)
+    (property "Datasheet" "" (at 209.55 53.848 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "SCT2541" (at 209.55 53.848 0)
+    (property "MPN" "" (at 209.55 53.848 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fd05898b-44bb-40c1-a47d-e138a21349f1))
@@ -1688,7 +1608,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/8aa6a7bb-8a1d-452d-93a1-bb589680df70"
-          (reference "J6") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
       (project "FansBoard_v3.1"
@@ -1708,7 +1628,7 @@
   (symbol (lib_id "power:+5V") (at 57.404 52.324 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5890f3ab-778d-49b6-acc6-6cb6607395f7)
-    (property "Reference" "#PWR018" (at 57.404 56.134 0)
+    (property "Reference" "#PWR016" (at 57.404 56.134 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 57.785 47.9298 0)
@@ -1724,7 +1644,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/8aa6a7bb-8a1d-452d-93a1-bb589680df70"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
       (project "FansBoard_v3.1"
@@ -1738,7 +1658,7 @@
   (symbol (lib_id "power:GND") (at 40.894 68.834 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f3de55e-2020-42a2-9f86-0c838f653e9e)
-    (property "Reference" "#PWR017" (at 40.894 75.184 0)
+    (property "Reference" "#PWR015" (at 40.894 75.184 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.021 73.2282 0)
@@ -1754,7 +1674,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/8aa6a7bb-8a1d-452d-93a1-bb589680df70"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
       (project "FansBoard_v3.1"
@@ -1808,10 +1728,10 @@
   (symbol (lib_id "device:C") (at 118.364 61.468 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6aa574ae-5e1d-4e3d-b4ef-befe4095ed6b)
-    (property "Reference" "C15" (at 121.2596 60.2996 0)
+    (property "Reference" "C17" (at 121.2596 60.2996 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "0.1µ" (at 121.2596 62.611 0)
+    (property "Value" "0.1uF" (at 121.2596 62.611 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 117.3988 57.658 0)
@@ -1820,7 +1740,7 @@
     (property "Datasheet" "~" (at 118.364 61.468 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Note" "10V X5R 0603" (at 301.244 -52.832 0)
+    (property "Note" "" (at 301.244 -52.832 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "CAP CER 0.1UF 10V X5R 0603" (at 301.244 -52.832 0)
@@ -1831,7 +1751,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/8aa6a7bb-8a1d-452d-93a1-bb589680df70"
-          (reference "C15") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
       (project "BMS_v10.0"
@@ -1845,7 +1765,7 @@
   (symbol (lib_id "power:+24V") (at 171.704 27.178 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c5c1811-e183-4ed4-a685-216c75e9eb05)
-    (property "Reference" "#PWR021" (at 171.704 30.988 0)
+    (property "Reference" "#PWR019" (at 171.704 30.988 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 171.704 23.6022 0)
@@ -1861,7 +1781,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/8aa6a7bb-8a1d-452d-93a1-bb589680df70"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
       (project "FansBoard_v3.1"
@@ -1881,7 +1801,7 @@
   (symbol (lib_id "Device:C") (at 29.464 59.944 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 71dc75d9-38f8-4657-8448-0891f224df6a)
-    (property "Reference" "C16" (at 32.385 58.7756 0)
+    (property "Reference" "C15" (at 32.385 58.7756 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 32.385 61.087 0)
@@ -1901,7 +1821,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/8aa6a7bb-8a1d-452d-93a1-bb589680df70"
-          (reference "C16") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
       (project "FansBoard_v3.1"
@@ -1915,7 +1835,7 @@
   (symbol (lib_id "device:R") (at 128.524 53.848 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 807f7f67-0a56-4158-a95b-c70f8c72d06b)
-    (property "Reference" "R14" (at 128.524 51.308 90)
+    (property "Reference" "R13" (at 128.524 51.308 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 128.524 53.848 90)
@@ -1927,7 +1847,7 @@
     (property "Datasheet" "~" (at 128.524 53.848 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Note" "0.1W 5% 0603" (at 235.204 -118.872 0)
+    (property "Note" "" (at 235.204 -118.872 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "RES SMD 10K OHM 5% 1/10W 0603 " (at 235.204 -118.872 0)
@@ -1938,7 +1858,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/8aa6a7bb-8a1d-452d-93a1-bb589680df70"
-          (reference "R14") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
       (project "BMS_v10.0"
@@ -1986,13 +1906,13 @@
   (symbol (lib_id "Connector:TestPoint") (at 204.47 48.768 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95fd1ea3-9aa1-4d0c-9cf6-10acfd796184)
-    (property "Reference" "TP12" (at 205.867 45.8998 0)
+    (property "Reference" "TP10" (at 205.867 45.8998 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "TestPoint" (at 205.867 47.1682 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+    (property "Value" "Fan PWM" (at 205.867 47.1682 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (at 209.55 48.768 0)
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 209.55 48.768 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 209.55 48.768 0)
@@ -2002,7 +1922,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/8aa6a7bb-8a1d-452d-93a1-bb589680df70"
-          (reference "TP12") (unit 1)
+          (reference "TP10") (unit 1)
         )
       )
       (project "FansBoard_v3.1"
@@ -2057,7 +1977,7 @@
   (symbol (lib_id "power:GND") (at 117.856 117.348 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a15776d5-6012-4c7e-bb67-0ff744c87190)
-    (property "Reference" "#PWR014" (at 117.856 123.698 0)
+    (property "Reference" "#PWR018" (at 117.856 123.698 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 117.856 121.7914 0)
@@ -2073,7 +1993,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/8aa6a7bb-8a1d-452d-93a1-bb589680df70"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
       (project "BMS_v10.0"
@@ -2087,7 +2007,7 @@
   (symbol (lib_id "power:+5V") (at 175.26 83.058 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa6ca531-5a56-4aac-b3fc-8b7036e55c28)
-    (property "Reference" "#PWR019" (at 175.26 86.868 0)
+    (property "Reference" "#PWR020" (at 175.26 86.868 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 175.641 78.6638 0)
@@ -2103,7 +2023,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/8aa6a7bb-8a1d-452d-93a1-bb589680df70"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
       (project "FansBoard_v3.1"
@@ -2117,7 +2037,7 @@
   (symbol (lib_id "power:GND") (at 115.824 69.088 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b16a46ad-eab6-45d8-a135-1ae545c3e609)
-    (property "Reference" "#PWR015" (at 115.824 75.438 0)
+    (property "Reference" "#PWR017" (at 115.824 75.438 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.824 73.5314 0)
@@ -2133,7 +2053,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/8aa6a7bb-8a1d-452d-93a1-bb589680df70"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
       (project "BMS_v10.0"
@@ -2224,7 +2144,7 @@
   (symbol (lib_id "power:GND") (at 175.26 112.268 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c62066e0-4833-4a4a-a919-473e5c814cac)
-    (property "Reference" "#PWR020" (at 175.26 118.618 0)
+    (property "Reference" "#PWR021" (at 175.26 118.618 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 175.387 116.6622 0)
@@ -2240,7 +2160,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/8aa6a7bb-8a1d-452d-93a1-bb589680df70"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
       (project "FansBoard_v3.1"
@@ -2254,7 +2174,7 @@
   (symbol (lib_id "power:+24V") (at 23.114 52.324 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e528093b-2104-4d67-9c6a-6ae0abd15a09)
-    (property "Reference" "#PWR016" (at 23.114 56.134 0)
+    (property "Reference" "#PWR014" (at 23.114 56.134 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 23.114 48.7482 0)
@@ -2270,7 +2190,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/8aa6a7bb-8a1d-452d-93a1-bb589680df70"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
       (project "FansBoard_v3.1"
@@ -2284,7 +2204,7 @@
   (symbol (lib_id "Device:R") (at 158.75 102.108 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ec6886d0-dea1-4d42-8c84-1b81d0ad7ca7)
-    (property "Reference" "R15" (at 158.75 99.568 90)
+    (property "Reference" "R14" (at 158.75 99.568 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "500" (at 158.75 102.108 90)
@@ -2304,7 +2224,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/8aa6a7bb-8a1d-452d-93a1-bb589680df70"
-          (reference "R15") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
       (project "FansBoard_v3.1"
@@ -2318,7 +2238,7 @@
   (symbol (lib_id "device:D_Zener") (at 113.284 61.468 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed69e936-edbe-4d21-987d-e8c163308ac5)
-    (property "Reference" "D10" (at 111.2774 60.2996 90)
+    (property "Reference" "D8" (at 111.2774 60.2996 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3V6" (at 111.2774 62.611 90)
@@ -2341,7 +2261,7 @@
     (instances
       (project "LogicBoard_v1"
         (path "/1e1b062d-fad0-427c-a622-c5b8a80b5268/8aa6a7bb-8a1d-452d-93a1-bb589680df70"
-          (reference "D10") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
       (project "BMS_v10.0"
