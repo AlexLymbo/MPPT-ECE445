@@ -1,4 +1,4 @@
-21581113168892822
+21690084994055525
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88773,13 +88773,6 @@ DPAK TO-252 DPAK-3 TO-252-3 SOT-428 SC-63
 0
 3
 3
-layout
-U_PAMC1350DWVR_TEX
-
-PAMC1350DWVR 
-0
-8
-8
 layout
 Wurth_7460305_1x01
 Wurth, M5 Terminal Lug, Press-Fit, https://www.we-online.de/katalog/datasheet/7460305.pdf
