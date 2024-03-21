@@ -6236,12 +6236,13 @@
 				(hide yes)
 			)
 		)
-		(property "Note" "Vsense"
+		(property "Note" "https://www.ti.com/lit/an/sbaa350a/sbaa350a.pdf?ts=1711003254897&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252Fde-de%252FAMC1300B-Q1"
 			(at 231.648 54.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8392,7 +8393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Note" "Vsense"
+		(property "Note" "https://www.ti.com/lit/an/sbaa350a/sbaa350a.pdf?ts=1711003254897&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252Fde-de%252FAMC1300B-Q1"
 			(at 254.508 54.356 0)
 			(effects
 				(font
