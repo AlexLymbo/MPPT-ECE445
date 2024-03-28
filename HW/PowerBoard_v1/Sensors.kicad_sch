@@ -4554,12 +4554,13 @@
 				(hide yes)
 			)
 		)
-		(property "Note" "Isense"
+		(property "Note" "https://www.ti.com/lit/an/slyt810/slyt810.pdf?ts=1711017523209&ref_url=https%253A%252F%252Fwww.ti.com%252Ftechnologies%252Fcurrent-sensing-solutions.html"
 			(at 243.332 96.012 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6595,6 +6596,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "499K Ohm 1% 1/10W"
+			(at 259.08 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f74543bd-e23b-47ca-8327-d883b1572131")
 		)
@@ -7427,6 +7437,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "499K Ohm 1% 1/10W"
+			(at 236.22 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "89d8102c-d0ba-4eb9-b899-f882a63367a9")
 		)
@@ -7726,12 +7745,13 @@
 				(hide yes)
 			)
 		)
-		(property "Note" "Isense"
+		(property "Note" "https://www.ti.com/lit/an/slyt810/slyt810.pdf?ts=1711017523209&ref_url=https%253A%252F%252Fwww.ti.com%252Ftechnologies%252Fcurrent-sensing-solutions.html"
 			(at 243.332 85.852 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8537,6 +8557,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "499K Ohm 1% 1/10W"
+			(at 236.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "773308ab-159a-44f5-9b70-03dbef185dcf")
 		)
@@ -8919,6 +8948,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 259.08 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "499K Ohm 1% 1/10W"
 			(at 259.08 35.56 0)
 			(effects
 				(font
