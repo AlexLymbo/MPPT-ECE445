@@ -1,6 +1,4 @@
 # Senior Design Project(ECE445) - Custom Illini Solar Car MPPT
-
-## TLDR:
 This project contains both the HW and FW for a boost converter MPPT made for the 3rd generation vehicle of Illini Solar Car. It utilizes a simple perturb and observe algorithm (P&O).
 
 ## More Info: 
